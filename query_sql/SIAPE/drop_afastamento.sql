@@ -1,0 +1,3 @@
+drop table tmp_serv_SIAPE_Afastamento;
+
+drop table final_serv_SIAPE_Afastamento;
