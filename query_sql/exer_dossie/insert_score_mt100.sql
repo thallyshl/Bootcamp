@@ -20,5 +20,6 @@ where
 	extract(month from dt_dossie) = 2
 	and extract (year from dt_dossie) = 2022
 	and id_dossie not in (select id_dossie from tmp_dossie_qa)
+    and id_status in (3, 5, 7, 8, 25)
 	and score > 100
 	and random() <= 0.1;

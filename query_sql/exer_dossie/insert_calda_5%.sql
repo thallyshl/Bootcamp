@@ -1,3 +1,12 @@
+insert into tmp_dossie_qa (
+	id_dossie,
+	cod_user,
+	id_status_analise,
+	score,
+	dt_dossie,
+	dt_inicio_analise,
+	dt_fim_analise
+)
 select
 	cod_user
 	id_dossie,
